@@ -1,0 +1,156 @@
+.tokenAbout{
+    background-color: black;
+}
+.tokenAbout-header-name{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Orbitron';
+    color: white;
+}
+
+.font-orbitron{
+    font-family: 'Orbitron';
+}
+
+.token-pricechat-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tokenAbout-arcadianToken-div-center{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.tokenAbout-font-size-48{
+    font-size: 48px;
+}
+
+.tokenAbout-font-size-16{
+    font-size: 16px;
+}
+
+.tokenAbout-font-size-14{
+    font-size: 14px;
+}
+
+.tokenAbout-font-color-blue{
+    color: #0099FF !important;
+}
+
+.token-about-tokenomics-right-list{
+    background-color: #1E1E1E;
+    border-radius: 1rem;
+}
+
+.token-font-size-24{
+    font-size: 24px;
+}
+
+.token-text-color-grey{
+    color: #ACACAC;
+}
+
+.token-about-pl-3{
+    padding-left: 32px;
+}
+
+.token-about-pb-1{
+    padding-bottom: 31px;
+}
+
+.token-about-pt-1{
+    padding-top: 31px;
+}
+
+.token-font-size-36{
+    font-size: 36px;
+}
+
+.token-about-utility-and-incentives-right-div{
+    border: 2px solid #2C003B;
+    border-radius: 1rem;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    text-align: center;
+    width: 245px;
+    height: 172px;
+}
+
+.token-about-margin-right-1{
+    margin-right: 2rem !important;
+}
+
+.token-display-flex{
+    display: flex;
+}
+
+.token-mt-188{
+    margin-top: 188px !important;
+}
+
+.token-float-left{
+    float: left;
+}
+
+
+
+.token-float-right{
+    float: right;
+    right: -50%;
+}
+
+/* asfeasefsf */
+
+#content {
+    background-color: black;
+    width: 100%;
+}
+
+#flex-container-text-up {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.roadmap-text-up {
+    color: white;
+    width: 33.33%;
+}
+
+.roadmap-text-down {
+    color: white;
+    width: 50%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+#flex-container-text-down {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#flex-container-roadmap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+   
+    background-size: 100% 100%;
+}
+
+#flex-container-roadmap>div:nth-child(even) {
+    margin-top: 55px;
+}

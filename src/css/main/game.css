@@ -1,0 +1,115 @@
+.game-header-name{
+    left: 43.89%;
+    right: 43.82%;
+    margin-top: 5%;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.text-color-white{
+    color: white;
+}
+
+.font-orbitron{
+    font-family: 'Orbitron';
+}
+
+.align-item-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-acadian-hub{
+    background-color: #6608C1;
+    color: white;
+    padding: 10px 80px;
+    font-family: 'Roboto';
+}
+
+.position-relative{
+    position: relative;
+}
+
+.game-early-access{
+    background: linear-gradient(to left,#597DFB ,#03008A);
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    border-radius: 1rem;
+}
+
+.hub-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+}
+
+.game-coming-soon{
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+}
+
+.faq-list-item-top{
+    padding: 20px 10px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+}
+
+.faq-list-item-bottom{
+    padding: 20px 10px;
+    background-color: #272727;
+    border-radius: 8px;
+    display: none;
+}
+
+
+.faq-list-item-arrow-up{
+    color: #6608C1;
+    display: none;
+}
+.faq-list-item-arrow-down{
+    color: #6608C1;
+}
+
+.game-justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px){
+    .game-early-access{
+        font-size: 10px;
+    }
+    
+    .game-coming-soon{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991px){
+    .game-early-access{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    
+    .game-coming-soon{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+}
+

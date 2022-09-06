@@ -1,0 +1,82 @@
+.prizes {
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%);
+}
+.prizes-header-name{
+    left: 43.89%;
+    right: 43.82%;
+    margin-top: 10%;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.prizes-machine{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    height: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.text-color-white{
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.border{
+    border: 2px solid white;
+}
+
+.border-radius-1{
+    border-radius: 1rem;
+}
+
+.font-orbitron{
+    font-family: 'Orbitron';
+}
+
+.border-main{
+    border: 2px solid #4D008A;
+
+}
+
+.prizes-comming-soon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 4px solid #240339;
+    padding: 2px;
+    height: 40px !important;
+    background-color: black !important;
+}
+
+.prizes-comming-soon-progress{
+    background-image: linear-gradient(to right, #4D008A , #9659FB)!important;
+}
+
+@media (min-width: 1500px){
+    .prizes{
+        width: 1440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .prizes{
+        position: relative;
+    }
+}

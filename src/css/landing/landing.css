@@ -1,0 +1,333 @@
+.landing {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    font-family: 'Orbitron';
+  }
+  .landing .main{
+    top: 30%;
+    width: 100%;
+    position: absolute;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landing .logo{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+  }
+
+  .landing .main{
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+  }
+  
+  .landing .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 30%;
+  }
+  
+  .landing .footer {
+    position: absolute;
+    background-color: black;
+    top: 95%;
+    height: 5%;
+    width: 100%;
+  }
+  
+  .landing .footer .landing_about {
+    margin-left: 30px;
+    float: left;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .landing .footer .landing_contactus {
+    float: right;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  
+  /* ----------lading Begin .rotating-border ---------- */
+  @keyframes spin {
+    from {transform: translate(-50%, -50%) rotate(0);}
+    to   {transform: translate(-50%, -50%) rotate(360deg);}
+  }
+  .rotating-border {
+    --border-radius: 1rem;
+    --border-size: 0.06rem;
+    --border-bg: conic-gradient(white, rgb(23, 8, 63), black,white,black,white);
+    --padding: 4rem;
+    position: relative;
+    overflow: hidden;
+    font-size: 0.7rem;
+    padding: calc(var(--padding) + var(--border-size));
+    border-radius: var(--border-radius);
+    display: inline-block;
+    z-index: 2000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  .rotating-border::before {
+    content: '';
+    display: block;
+    background: var(--border-bg);
+    width: calc(100% * 1.41421356237);
+    padding-bottom: calc(100% * 1.41421356237);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: "100%";
+    z-index: -2;
+    animation: spin 5s linear infinite;
+  }
+  .rotating-border::before{
+    animation-direction: reverse;
+  }
+  .rotating-border::after{
+    content: '';  
+    position: absolute;
+    inset: var(--border-size);
+    background-color: black;
+    z-index: -1;
+    border-radius: calc(var(--border-radius) - var(--border-size));
+  }
+  .rotating-border:hover   {
+    cursor: pointer;
+    transition:  0.8s;
+    scale: 1.2;
+  }
+  /* ---------- End .rotating-border ---------- */
+  
+  .rotating-border-white{
+    --border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 500px) {
+    .rotating-border {
+      --border-radius: 50%;
+      --border-size: 0.06rem;
+      --border-bg: conic-gradient(white, rgb(23, 8, 63), black,white,black,white);
+      --padding: 2rem;
+      position: relative;
+      overflow: hidden;
+      font-size: 0.7rem;
+      padding: calc(var(--padding) + var(--border-size));
+      border-radius: var(--border-radius);
+      display: inline-block;
+      z-index: 2000;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+    .rotating-border::before {
+      content: '';
+      display: block;
+      background: var(--border-bg);
+      width: calc(100% * 1.41421356237);
+      padding-bottom: calc(100% * 1.41421356237);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: "100%";
+      z-index: -2;
+      animation: spin 5s linear infinite;
+    }
+    .rotating-border::before{
+      animation-direction: reverse;
+    }
+    .rotating-border::after{
+      content: '';  
+      position: absolute;
+      inset: var(--border-size);
+      background-color: black;
+      z-index: -1;
+      border-radius: calc(var(--border-radius) - var(--border-size));
+    }
+    .rotating-border:hover   {
+      cursor: pointer;
+      transition:  0.8s;
+      scale: 1.2;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .rotating-border {
+      --border-radius: 50%;
+      --border-size: 0.06rem;
+      --border-bg: conic-gradient(white, rgb(23, 8, 63), black,white,black,white);
+      --padding: 3rem;
+      position: relative;
+      overflow: hidden;
+      font-size: 0.7rem;
+      padding: calc(var(--padding) + var(--border-size));
+      border-radius: var(--border-radius);
+      display: inline-block;
+      z-index: 2000;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+    .rotating-border::before {
+      content: '';
+      display: block;
+      background: var(--border-bg);
+      width: calc(100% * 1.41421356237);
+      padding-bottom: calc(100% * 1.41421356237);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: "100%";
+      z-index: -2;
+      animation: spin 5s linear infinite;
+    }
+    .rotating-border::before{
+      animation-direction: reverse;
+    }
+    .rotating-border::after{
+      content: '';  
+      position: absolute;
+      inset: var(--border-size);
+      background-color: black;
+      z-index: -1;
+      border-radius: calc(var(--border-radius) - var(--border-size));
+    }
+    .rotating-border:hover   {
+      cursor: pointer;
+      transition:  0.8s;
+      scale: 1.2;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .rotating-border {
+      --border-radius: 50%;
+      --border-size: 0.06rem;
+      --border-bg: conic-gradient(white, rgb(23, 8, 63), black,white,black,white);
+      --padding: 5rem;
+      position: relative;
+      overflow: hidden;
+      font-size: 0.7rem;
+      padding: calc(var(--padding) + var(--border-size));
+      border-radius: var(--border-radius);
+      display: inline-block;
+      z-index: 2000;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+    .rotating-border::before {
+      content: '';
+      display: block;
+      background: var(--border-bg);
+      width: calc(100% * 1.41421356237);
+      padding-bottom: calc(100% * 1.41421356237);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: "100%";
+      z-index: -2;
+      animation: spin 5s linear infinite;
+    }
+    .rotating-border::before{
+      animation-direction: reverse;
+    }
+    .rotating-border::after{
+      content: '';  
+      position: absolute;
+      inset: var(--border-size);
+      background-color: black;
+      z-index: -1;
+      border-radius: calc(var(--border-radius) - var(--border-size));
+    }
+    .rotating-border:hover   {
+      cursor: pointer;
+      transition:  0.8s;
+      scale: 1.2;
+    }
+  }
+
+  .text-decoration-none{
+    text-decoration: none;
+  }
+  
+  .font-color-white {
+    color: white;
+  }
+
+  @media (max-height: 500px) {
+    .rotating-border {
+      --border-radius: 50%;
+      --border-size: 0.06rem;
+      --border-bg: conic-gradient(white, rgb(23, 8, 63), black,white,black,white);
+      --padding: 1.5rem;
+      position: relative;
+      overflow: hidden;
+      font-size: 0.7rem;
+      padding: calc(var(--padding) + var(--border-size));
+      border-radius: var(--border-radius);
+      display: inline-block;
+      z-index: 2000;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+    .rotating-border::before {
+      content: '';
+      display: block;
+      background: var(--border-bg);
+      width: calc(100% * 1.41421356237);
+      padding-bottom: calc(100% * 1.41421356237);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: "100%";
+      z-index: -2;
+      animation: spin 5s linear infinite;
+    }
+    .rotating-border::before{
+      animation-direction: reverse;
+    }
+    .rotating-border::after{
+      content: '';  
+      position: absolute;
+      inset: var(--border-size);
+      background-color: black;
+      z-index: -1;
+      border-radius: calc(var(--border-radius) - var(--border-size));
+    }
+    .rotating-border:hover   {
+      cursor: pointer;
+      transition:  0.8s;
+      scale: 1.2;
+    }
+  }

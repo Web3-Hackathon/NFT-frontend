@@ -1,0 +1,142 @@
+.Navbar{
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    height: 80px;
+}
+
+.nav-logo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navdiv{
+    display: flex;
+}
+
+.nav-left-notification{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.link{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;    
+}
+
+.link:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.link-active{
+    border-bottom: 5px solid #9659FB;    
+    color: white;
+    font-weight: 700;
+}
+
+.notification{
+    display: flex;
+    margin-top: 30px;
+    color: white
+}
+
+.harmonyState{
+    display: flex;
+    border-radius: 3rem;
+    border: 1px solid #9659FB;
+    height: 30px;
+    justify-content: center;    
+    margin-left: 10px;
+    overflow-y: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.harmonyState p{
+    color: white;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.walletAmount {
+    text-align: center;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.notification-item{
+    margin-top: 10px;
+}
+
+.x-mobile{
+    display: none !important;
+}
+.x-desktop{
+    display: flex !important;
+}
+
+.nav-justify-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-8{
+    margin-top: 8px !important;
+}
+
+.nav-height-60{
+    height: 60px;
+}
+
+@media (max-width: 767px) {
+    .nav-left-notification{
+        position: absolute;
+        top: 0;
+        left: 90px;
+        display: block;       
+        width: 300px;
+        margin-left: 20%;
+    }
+    .harmonyState{
+        height: 30px;
+    }
+    .nav-right-notification{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .x-mobile{
+        display: flex  !important;;
+    }
+    .x-desktop{
+        display: none !important;;
+    }
+    .Navbar{
+        height: auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .notification{
+        float: right;
+        margin-right: 3rem;
+    }
+    .game-nav-item{
+        margin-right: 4rem !important;
+    }
+}

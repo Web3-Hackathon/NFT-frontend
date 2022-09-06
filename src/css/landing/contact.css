@@ -1,0 +1,85 @@
+.contact {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+  .logo{
+    position: absolute;
+    top: 10%;
+    z-index: 2000;
+    left: 1%;
+  }
+.header {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    font-family: "Orbitron";
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    color: white;
+}
+
+input[type="text"],[type="email"], textarea {
+    background-color : rgb(30,30,30); 
+    border-color: rgb(69,69,69);
+    color: rgb(141,141,141);
+    margin-bottom: 4%;
+}
+
+.rightPage{
+    border-radius: 1rem;
+    border: 1px solid grey;
+    background-color: rgb(30,30,30);
+    padding: 1rem;
+    margin: auto;
+    margin-top: 24px !important;
+}
+
+.rightPage div{
+    margin-bottom: 2rem;
+}
+
+.rightPage div p{
+    margin-left: 1rem;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.followus {
+    display: flex;
+    justify-content: space-around;
+}
+
+.followusIcon {
+    border-radius: 3rem;
+    color: rgb(52,22,86);
+}
+
+.sendButton{
+    position: relative;
+}
+
+.sendTextCenter{
+    position: absolute;
+    left: 90px;
+    top: calc(50% + 8px);
+    
+    transform: translate(-50%,-50%);
+}

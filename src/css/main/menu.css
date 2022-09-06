@@ -1,0 +1,47 @@
+.menu{
+    width: 90px;
+}
+.menu-icon {
+    margin-top: 20px;
+    color: rgb(52,22,86);
+    text-align: center;
+}
+
+.menu-icon p{
+    color: white;
+}
+
+.x-menu-mobile{
+    display: none;
+}
+.x-menu-desktop{
+    display: block;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+.ml-m-5{
+    margin-left: -5px;
+}
+
+.menu-icon-active{
+    color: #C381F6;
+}
+
+
+@media (max-width: 767px) {
+    .x-menu-mobile{
+        display: block;
+    }
+    .x-menu-desktop{
+        display: none;
+    }
+}
+
+@media (max-width: 660px) {
+    .x-menu-desktop{
+        width: 100%;
+    }
+}

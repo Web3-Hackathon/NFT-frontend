@@ -1,0 +1,16 @@
+.mainAbout-header-name{
+    left: 43.89%;
+    right: 43.82%;
+    margin-top: 5%;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.text-color-white{
+    color: white;
+}

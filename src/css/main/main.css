@@ -1,0 +1,28 @@
+.sitePage{
+    width: 80%;
+    margin: auto;
+}
+
+.main-page{
+    position: relative;
+    overflow-y: auto;
+    min-height: calc(100vh - 300px);
+}
+
+
+
+@media (min-width :1600px) {
+    .sitePage{
+        width: 1440px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .sitePage{
+        position: relative;
+    }
+    .main-mobile{
+        margin: auto;
+    }
+}

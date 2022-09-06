@@ -1,0 +1,81 @@
+.font-orbitron{
+    font-family: 'Orbitron';
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.text-font-size-20{
+    font-size: 18px;
+}
+
+.modalContent{
+    background-color: #272727;
+}
+
+.token-float-right{
+    float: right;
+}
+
+.text-color-white{
+    color: white;
+}
+
+.token-text-color-blue{
+    color: #0099FF !important;
+}
+
+.token-text-decoration-black{
+    text-decoration: 4px underline black;
+}
+
+.token-text-underline{
+    text-decoration: underline;
+}
+
+.token-text-shdow{
+    text-shadow: 2px 2px black;
+}
+
+.font-size-15{
+    font-size: 15px;
+}
+
+.token-gif{
+    width: 250px;
+}
+
+.token-left-button-group{
+    display: flex;
+}
+
+.token-container-right{
+    margin-top: 50px;
+    width: 500px;
+}
+
+.token-document-button{
+    width: 250px;
+    border: 1px solid #6608C1;
+    border-radius: 3rem;
+    margin-left: 1rem;
+}
+
+.token-text-color-main{
+    color: #9659FB;
+}
+
+.token-gif-text{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.token-container-left{
+    display: block;
+    margin-top: 200px;
+    width: 100%;
+    font-size: 60px;
+}

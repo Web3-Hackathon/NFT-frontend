@@ -1,0 +1,28 @@
+.document-main{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-height: calc(100vh - 300px);
+}
+
+.document-header-name{
+    left: 43.89%;
+    right: 43.82%;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.document-item{
+    border: 1px solid #6608C1;
+    border-radius: 1rem;
+    padding: 6% 5%;
+}
+
+.document-text-decoration-none{
+    text-decoration: none;
+}
